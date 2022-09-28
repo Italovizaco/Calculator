@@ -1,0 +1,86 @@
+:root {
+    --primary-color: rgba(12, 94, 112, 0.623);
+    --primary-color-darker: rgb(9, 48, 56);
+    --transform-color-grey: rgba(197, 197, 197, 0.952);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 500px;
+    min-height: 200px;
+    border: black 1px solid;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculadora {
+    width: 450px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: var(--transform-color-grey);
+    transition: 0.3s;
+}
+
+.btn-eq {
+    background-color: rgba(0, 65, 139, 0.336);
+}
+
+.btn-eq:hover {
+    background-color: rgba(0, 65, 139, 0.445);
+}
+
+.btn-eq {
+    background-color: rgba(0, 65, 139, 0.336);
+}
+
+.btn-eq:hover {
+    background-color: rgba(0, 65, 139, 0.521);
+}
+
+.btn-clear {
+    background-color: rgba(255, 0, 0, 0.253);
+}
+
+.btn-clear:hover {
+    background-color: rgba(255, 37, 37, 0.596);
+}
